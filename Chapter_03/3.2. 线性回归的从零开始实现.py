@@ -27,7 +27,7 @@ def plot_eda():
     plt.xlabel('x')
     plt.ylabel('y')
     plt.grid(True,alpha=0.5)#alpha为透明度属性
-    plt.savefig('合成数据集EDA.png',dpi=300)  #保存图片在show之前
+    #plt.savefig('合成数据集EDA.png',dpi=300)  #保存图片在show之前
     plt.show()
 
 
@@ -80,7 +80,7 @@ def plot_loss(epoch_losses):
     plt.ylabel('训练损失Loss')
     plt.grid(True,alpha=0.5)
     plt.legend(['训练损失'])
-    plt.savefig('Loss曲线.png',dpi=300)  #保存图片在show之前
+    #plt.savefig('Loss曲线.png',dpi=300)  #保存图片在show之前
     plt.show()
 
 
@@ -115,3 +115,8 @@ def train():
 if __name__ == '__main__':
     plot_eda()
     train()
+
+
+
+
+    
