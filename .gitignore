@@ -1,10 +1,12 @@
-echo "__pycache__/" > .gitignore
-echo "*.pyc" >> .gitignore
-echo ".ipynb_checkpoints/" >> .gitignore
-echo "*.pt" >> .gitignore
-echo "*.pth" >> .gitignore
-echo "data/" >> .gitignore
-echo "outputs/" >> .gitignore
-echo ".venv/" >> .gitignore
-echo "venv/" >> .gitignore
-echo ".env" >> .gitignore
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.pth
+data/
+outputs/
+.venv/
+venv/
+.env
+.vscode/
+_*.py
